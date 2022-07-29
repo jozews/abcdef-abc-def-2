@@ -2,9 +2,6 @@
 Solution to `abcdef = (abc + def) ** 2` where `abcdef` is a six digit number.
 
 ```
-
-
-
 # Solution 1
 
 for abcdef in range(100_000, 999_999):
@@ -37,7 +34,4 @@ for abc_plus_def in range(int(sqrt(100_000)), int(sqrt(999_999) + 1)):
         abcdef = int(f"{abc}{def_str}")
         if abcdef == (abc + def_) ** 2:
             print(f"Found: {abcdef}")
-
-
-
 ```
