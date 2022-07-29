@@ -1,5 +1,5 @@
 # abcdef-abc-def-2
-Solution for abcdef = (abc + def) ** 2 where `abcdef` is a six digit number.
+Solution to `abcdef = (abc + def) ** 2` where `abcdef` is a six digit number.
 
 ```
 
