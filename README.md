@@ -4,7 +4,7 @@ Solution to `abcdef = (abc + def) ** 2` where `abcdef` is a six digit number.
 ```
 # Solution 1
 
-for abcdef in range(100_000, 999_999):
+for abcdef in range(100_000, 999_999 + 1):
     
     abc = int(abcdef / 1000)
     def_ = abcdef % 1000
