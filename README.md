@@ -1,8 +1,7 @@
-# abcdef-abc-def-2
-### Solution to `abcdef = (abc + def) ** 2` where `abcdef` is a six digit number.
+## Solution to `abcdef = (abc + def) ** 2` where `abcdef` is a six digit number.
 
 ```
-# Solution 1
+### Solution 1
 
 for abcdef in range(100_000, 999_999 + 1):
     
@@ -13,7 +12,7 @@ for abcdef in range(100_000, 999_999 + 1):
         print(f"Found: {abcdef}")
             
 
-# Solution 2 (slightly faster?)
+### Solution 2 (slightly faster?)
 
 from math import sqrt
 
@@ -36,7 +35,7 @@ for abc_plus_def in range(int(sqrt(100_000)), int(sqrt(999_999) + 1)):
             print(f"Found: {abcdef}")
 ```
 
-# Solution 3
+### Solution 3
 
 ```
 # x = abc
