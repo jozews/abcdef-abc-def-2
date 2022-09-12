@@ -35,3 +35,12 @@ for abc_plus_def in range(int(sqrt(100_000)), int(sqrt(999_999) + 1)):
         if abcdef == (abc + def_) ** 2:
             print(f"Found: {abcdef}")
 ```
+
+# Solution 3
+
+x = abc
+y = def
+# abcdef = x * 1_000 + y
+# x * 1_000 + y = (x + y) ** 2 = (x + y)(x + y) = x ** 2 + 2xy + y ** 2
+# x * 1_000 + y = x ** 2 + 2xy + y ** 2
+
