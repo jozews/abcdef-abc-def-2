@@ -13,7 +13,7 @@ for abcdef in range(100_000, 999_999 + 1):
         print(f"Found: {abcdef}")
 ```
 
-### Solution 2 (slightly faster?)
+### Solution 2
 
 ```
 from math import sqrt
