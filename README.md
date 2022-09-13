@@ -78,3 +78,12 @@
 
     elapsed = time.time() - time_start
     print(f"Time {elapsed}, iterations {count_iterations}")
+
+
+### Solution 4?
+#### x = abc
+#### y = def
+#### abcdef = x * 1_000 + y
+#### x * 1_000 + y = (x + y) ** 2
+#### How to factor out x/y?
+
