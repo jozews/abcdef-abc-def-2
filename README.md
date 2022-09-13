@@ -58,11 +58,6 @@
 #### Time 0.4392850399017334, iterations 810000
 #### Does not finds 998001 unless we zero-pad numbers
 
-#### x = abc
-#### y = def
-#### abcdef = x * 1_000 + y
-#### x * 1_000 + y = (x + y) ** 2
-
     count_iterations = 0
     time_start = time.time()
 
